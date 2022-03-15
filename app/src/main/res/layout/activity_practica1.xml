@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colordefondo"
+    tools:context=".Practica1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btnRegresar"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="54dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/izquierda"
+                android:onClick="btnx"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Práctica"
+                android:textColor="#ffffff"
+                android:textSize="45dp"
+                android:fontFamily="@font/milkinice"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/idtxtMayuscula"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="139dp"
+                android:layout_height="122dp"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text=""
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#12ED1B"
+                android:textSize="105dp" />
+
+            <EditText
+                android:id="@+id/idtxtMinuscula"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="137dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text=""
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#12ED1B"
+                android:textSize="105dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/idtxt1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="166dp"
+                android:layout_height="154dp"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="ma"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#12ED1B"
+                android:textSize="105dp" />
+            <EditText
+                android:id="@+id/idtxt2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="166dp"
+                android:layout_height="154dp"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="me"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#12ED1B"
+                android:textSize="105dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/idtxt3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="166dp"
+                android:layout_height="154dp"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="mi"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#12ED1B"
+                android:textSize="105dp" />
+            <EditText
+                android:id="@+id/idtxt4"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="166dp"
+                android:layout_height="154dp"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="mo"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#12ED1B"
+                android:textSize="105dp" />
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/idtxt5"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="166dp"
+            android:layout_height="154dp"
+            android:backgroundTint="#ffffff"
+            android:fontFamily="@font/calfine"
+            android:text="mu"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#12ED1B"
+            android:textSize="105dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/butoon_ronder"
+            android:text="Continuar"
+            android:onClick="btnContinuar"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#12ED1B"
+            app:backgroundTintMode="src_atop"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+    </LinearLayout>
+
+</ScrollView>

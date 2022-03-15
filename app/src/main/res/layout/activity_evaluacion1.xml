@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoverdeclaro"
+    android:orientation="vertical"
+    tools:context=".Evaluacion1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btnRegresar"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="54dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/izquierda"
+                android:onClick="btnxE1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/milkinice"
+                android:gravity="center"
+                android:text="Puntos"
+                android:textColor="@color/black"
+                android:textSize="45dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+        android:fontFamily="@font/milkinice"
+        android:text="Pronuncia la silaba que falta"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/idimg1"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:background="@drawable/mama" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/idimgVoz1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:background="@drawable/iconmicrofono" />
+
+                    <EditText
+                        android:id="@+id/idtxtvoz1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="7"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/idimg2"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/mesa" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/idimgVoz2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:background="@drawable/iconmicrofono" />
+                    <EditText
+                        android:id="@+id/idtxtvoz2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="7"
+                        android:textColor="#ffffff"
+                        android:inputType="textPersonName"
+                        android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/idimg3"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/minero" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/idimgVoz3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:background="@drawable/iconmicrofono" />
+
+                    <EditText
+                        android:id="@+id/idtxtvoz3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="7"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/idimg4"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/moto" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/idimgVoz4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:background="@drawable/iconmicrofono" />
+                    <EditText
+                        android:id="@+id/idtxtvoz4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="7"
+                        android:textColor="#ffffff"
+                        android:inputType="textPersonName"
+                        android:text="" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    <ImageButton
+        android:id="@+id/idimg5"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/mesa" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/idimgVoz5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/iconmicrofono" />
+        <EditText
+            android:id="@+id/idtxtvoz5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="7"
+            android:textColor="#ffffff"
+            android:inputType="textPersonName"
+            android:text="" />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/butoon_ronder"
+            android:text="Continuar"
+            android:onClick="btnContinuarE2"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#12ED1B"
+            app:backgroundTintMode="src_atop"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+    </LinearLayout>
+</ScrollView>

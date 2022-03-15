@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoverdeclaro"
+    tools:context=".Practica2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btnRegresar"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="54dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/izquierda"
+                android:onClick="btnx"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/milkinice"
+                android:gravity="center"
+                android:text="Práctica"
+                android:textColor="#000000"
+                android:textSize="45dp" />
+            <ImageButton
+                android:id="@+id/btnInfo"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="54dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/iconovideo"
+                android:scaleType="fitXY"
+                android:onClick="clikVideo"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/idtxt1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:clickable="false"
+                android:focusable="false"
+                android:fontFamily="@font/calfine"
+                android:gravity="center"
+                android:text="ma"
+                android:textAllCaps="false"
+                android:textColor="@color/colorrojo"
+                android:textSize="60dp" />
+            <ImageButton
+                android:id="@+id/idimg1"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/mama" />
+            <Button
+                android:id="@+id/idtxtP1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="mamá"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/idtxt2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:clickable="false"
+                android:focusable="false"
+                android:fontFamily="@font/calfine"
+                android:gravity="center"
+                android:text="me"
+                android:textAllCaps="false"
+                android:textColor="@color/colorfuxia"
+                android:textSize="60dp" />
+
+            <ImageButton
+                android:id="@+id/idimg2"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/mesa"/>
+            <Button
+                android:id="@+id/idtxtP2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="mesa"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/idtxt3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="mi"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/coloramarillo"
+                android:textSize="60dp" />
+            <ImageButton
+                android:id="@+id/idimg3"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/minero" />
+            <Button
+                android:id="@+id/idtxtP3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="minero"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/idtxt4"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="mo"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorceleste"
+                android:textSize="60dp" />
+            <ImageButton
+                android:id="@+id/idimg4"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/moto" />
+            <Button
+                android:id="@+id/idtxtP4"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/calfine"
+                android:text="moto"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/idtxt5"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffff"
+            android:fontFamily="@font/calfine"
+            android:text="mu"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/verde"
+            android:textSize="60dp" />
+        <ImageButton
+            android:id="@+id/idimg5"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/muro" />
+        <Button
+            android:id="@+id/idtxtP5"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffff"
+            android:fontFamily="@font/calfine"
+            android:text="muro"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/butoon_ronder"
+            android:text="Continuar"
+            android:onClick="btnContinuarE1"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#12ED1B"
+            app:backgroundTintMode="src_atop"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+    </LinearLayout>
+
+</ScrollView>

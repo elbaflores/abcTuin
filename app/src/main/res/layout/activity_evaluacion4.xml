@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colordefondo"
+    android:orientation="vertical"
+    tools:context=".Evaluacion4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button2"
+                android:textAllCaps="false"
+                android:backgroundTint="#ffffff"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:onClick="btnRegresar"
+                android:textColor="#656A63"
+                android:textSize="25dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="X" />
+
+            <TextView
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/milkinice"
+                android:gravity="center"
+                android:text="Puntos"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textSize="30dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/milkinice"
+            android:text="Ordena la palabra por letra"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/moto" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="295dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bgpurple"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#332FA2"
+            android:textSize="32sp" />
+        <LinearLayout
+            android:id="@+id/layoutParent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/butoon_ronder"
+            android:text="Continuar"
+            android:onClick="btnContinuar"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:backgroundTint="#12ED1B"
+            app:backgroundTintMode="src_atop"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+    </LinearLayout>
+
+</ScrollView>

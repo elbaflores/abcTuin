@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#202732"
+    tools:context=".Inversa">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnRegresar"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="54dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/izquierda"
+            android:onClick="btnx"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="256dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/milkinice"
+            android:gravity="center"
+            android:text="Silabas Simples Indirectas"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+        <ImageButton
+            android:id="@+id/btnInfoSSI"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="54dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/informacion"
+            android:onClick="clikInformacionSSI"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/i1"
+            android:layout_width="193dp"
+            android:layout_height="134dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/butoon_ronder"
+            android:fontFamily="@font/creamy"
+
+            android:text="n"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="88dp"
+            app:backgroundTint="#12ED1B"
+            app:backgroundTintMode="src_atop"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Button
+            android:id="@+id/i2"
+            android:layout_width="193dp"
+            android:layout_height="134dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/butoon_ronder"
+            android:fontFamily="@font/creamy"
+
+            android:text="l"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="88dp"
+            app:backgroundTint="#12ED1B"
+            app:backgroundTintMode="src_atop"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/i3"
+                android:layout_width="193dp"
+                android:layout_height="134dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/butoon_ronder"
+                android:fontFamily="@font/creamy"
+
+                android:text="s"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="88dp"
+                app:backgroundTint="#12ED1B"
+                app:backgroundTintMode="src_atop"
+                app:layout_constraintBottom_toTopOf="@+id/button2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+            <Button
+                android:id="@+id/i4"
+                android:layout_width="193dp"
+                android:layout_height="134dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/butoon_ronder"
+                android:fontFamily="@font/creamy"
+
+                android:text="r"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="88dp"
+                app:backgroundTint="#12ED1B"
+                app:backgroundTintMode="src_atop"
+                app:layout_constraintBottom_toTopOf="@+id/button2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
